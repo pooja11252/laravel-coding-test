@@ -21,7 +21,7 @@ routes/
 - Database Design
     - users: Core user info (name, email).
     - user_details: Gender (linked via user_id).
-    - locations: City & country (linked via user_id).
+    - user_locations: City & country (linked via user_id).
 - Scheduled Task
     - Runs every 5 minutes using Laravel Scheduler.
     - Fetches 5 random users from https://randomuser.me/api/.
