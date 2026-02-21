@@ -9,5 +9,5 @@ use Illuminate\Support\Facades\Schedule;
 //     $this->comment(Inspiring::quote());
 // })->purpose('Display an inspiring quote');
 
-
+//This  command will run every five minutes and fetch user data
 Schedule::command('users:fetch-random-users')->everyFiveMinutes();
